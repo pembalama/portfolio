@@ -12,12 +12,13 @@ export const heroData = {
   title: 'Hi, I am',
   name: 'Pemba Lama',
   subtitle: 'Full Stack Developer',
-  cta: 'About Me',
+  cta: 'About',
+  // cta projects: 'Projects',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.png',
+  img: 'profile.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',

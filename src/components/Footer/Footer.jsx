@@ -39,7 +39,7 @@ const Footer = () => {
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
             Jacobo Martínez
           </a> */}
-          @2020 made with love by Pemba Lama.
+          @2020 Pemba Lama.
         </p>
 
         {isEnabled && <GithubButtons />}

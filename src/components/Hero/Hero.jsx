@@ -36,6 +36,12 @@ const Header = () => {
             <a className="cta-btn cta-btn--hero" href="#about">
               {cta || 'Know more'}
             </a>
+            <a className="cta-btn cta-btn--hero" href="#projects">
+              Projects
+            </a>
+            <a className="cta-btn cta-btn--hero" href="#contact">
+              Contact
+            </a>
           </p>
         </Fade>
       </Container>
