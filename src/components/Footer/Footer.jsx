@@ -34,6 +34,8 @@ const Footer = () => {
             })}
         </div>
         <hr />
+        {/* <p className="footer__text">Email: pemba.t.lama@gmail.com</p>
+        <p className="footer__text">Github: https://github.com/pembalama</p> */}
         <p className="footer__text">
           {/* © {new Date().getFullYear()} - Template developed by{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
