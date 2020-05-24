@@ -24,7 +24,7 @@ export const aboutData = {
     'I am a highly driven, motivated programmer with 7 + years of experience working in the Accounting field, who wants to learn more about web development and build cool things to solve problems and better the lives of others.',
   paragraphThree:
     'Feel free to reach out to me; I am always eager to learn new technology and take on exciting new projects!',
-  resume: 'https://docs.google.com/document/d/104M8unlxE_XaS6CgttiatN1ZjgRObbb7mrJhs3pGyE0/edit#', // if no resume, the button will not show up 'https://www.resumemaker.online/es.php'
+  resume: 'https://drive.google.com/open?id=0B_E507cni3_8UTV4RHhtdlFOcDNrdm04MU5IYXpNdWkxY1A4', // if no resume, the button will not show up 'https://www.resumemaker.online/es.php'
 };
 
 // PROJECTS DATA
@@ -37,7 +37,7 @@ export const projectsData = [
       'Ecommerce site built in two weeks; this was my personal project at Dev Mountain which won best UI/UX and design out of 6 projects.',
     info2:
       'Built with React, Redux, CSS/SCSS, Express, Node, Postgres, Bcrypt, Stripe, Nodemailer, and Figma.',
-    url: 'http://momoandbrooklyn.com/#/',
+    url: 'http://momoandbrooklyn.com:5000/#/',
     repo: 'https://github.com/pembalama/fullstack-ecommerce-project', // if no repo, the button will not show up
   },
   // {
