@@ -39,17 +39,19 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Hi, I am a Full Stack developer with a passion for web development.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I am a highly driven, motivated programmer with 7 + years of experience working in the Accounting field, who wants to learn more about web development and build cool things to solve problems and better the lives of others.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree ||
+                    'Feel free to reach out to me; I am always eager to learn new technology and take on exciting new projects!'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphFour || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphFour ||
+                    'SKILLS: HTML5, CSS3, Javascript, Git, Github, NodeJS, React, Redux, Postgres, SQL'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
