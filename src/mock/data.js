@@ -24,6 +24,8 @@ export const aboutData = {
     'I am a highly driven, motivated programmer with 7 + years of experience working in the Accounting field, who wants to learn more about web development and build cool things to solve problems and better the lives of others.',
   paragraphThree:
     'Feel free to reach out to me; I am always eager to learn new technology and take on exciting new projects!',
+  paragraphFour:
+    'SKILLS: HTML5, CSS3, Javascript, Git, Github, NodeJS, React, Redux, Postgres, SQL',
   resume: 'https://drive.google.com/open?id=0B_E507cni3_8UTV4RHhtdlFOcDNrdm04MU5IYXpNdWkxY1A4', // if no resume, the button will not show up 'https://www.resumemaker.online/es.php'
 };
 
