@@ -14,6 +14,16 @@
     clip-path: none;
   }
 
+  .skills {
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: left;
+
+    @include respond(tab-port) {
+      text-align: center;
+    }
+  }
+
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;

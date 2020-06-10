@@ -4,14 +4,14 @@ import uuidv1 from 'uuid/v1';
 export const headData = {
   title: 'Pemba Lama | Web Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Welcome to my website', // e.g: Welcome to my website
+  description: 'This is my Portfolio site', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Hi, I am',
   name: 'Pemba Lama',
-  subtitle: 'Full Stack Developer',
+  subtitle: 'Full Stack Web Developer',
   cta: 'About',
   // cta projects: 'Projects',
 };
@@ -19,21 +19,20 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Hi, I am a Full Stack developer with a passion for web development.',
-  paragraphTwo:
-    'I am a highly driven, motivated programmer with 7 + years of experience working in the Accounting field, who wants to learn more about web development and build cool things to solve problems and better the lives of others.',
-  paragraphThree:
-    'Feel free to reach out to me; I am always eager to learn new technology and take on exciting new projects!',
-  paragraphFour:
-    'SKILLS: HTML5, CSS3, Javascript, Git, Github, NodeJS, React, Redux, Postgres, SQL',
-  resume: 'https://drive.google.com/open?id=0B_E507cni3_8UTV4RHhtdlFOcDNrdm04MU5IYXpNdWkxY1A4', // if no resume, the button will not show up 'https://www.resumemaker.online/es.php'
+  paragraphOne:
+    'Hi, I am a Full Stack Web Developer. I love learning new things, solving problems, and working with others to build exciting products. When I am not coding, I enjoy listening to podcasts, traveling, and exploring great foods.',
+  //  paragraphTwo:
+  //    'When I am not coding, I enjoy listening to podcasts, traveling, and exploring great foods.',
+  paragraphThree: 'SKILLS:',
+  paragraphFour: 'HTML | CSS | Javascript | React | Redux | NodeJS | Postgres | SQL | Git + Github',
+  resume: 'https://drive.google.com/file/d/1RMEPm_vv4g9TCoo2MyR0-tEpTd1p7qVd/view', // if no resume, the button will not show up 'https://www.resumemaker.online/es.php'
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.png',
+    img: 'MomoandBrooklyn.png',
     title: 'Momo & Brooklyn',
     info:
       'Ecommerce site built in two weeks; this was my personal project at Dev Mountain which won best UI/UX and design out of 6 projects.',
@@ -42,30 +41,33 @@ export const projectsData = [
     url: 'http://momoandbrooklyn.com:5000/#/',
     repo: 'https://github.com/pembalama/fullstack-ecommerce-project', // if no repo, the button will not show up
   },
-  // {
-  //   id: uuidv1(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
-  // {
-  //   id: uuidv1(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: uuidv1(),
+    img: 'Blackbird.png',
+    title: 'Blackbird Reviews',
+    info:
+      'Blackbird Reviews is a social platform where users can create reviews about products that they have enjoyed. Users can also like and comment other reviews.',
+    info2:
+      'Built with React, Redux, CSS/SCSS, Express, Node, Postgres, Bcrypt, Nodemailer, and Figma.',
+    url: 'https://project-black-bird.herokuapp.com/#/',
+    repo: 'https://github.com/Project-Black-Bird/black-bird-reviews', // if no repo, the button will not show up
+  },
+  //  {
+  //    id: uuidv1(),
+  //    img: 'project.jpg',
+  //    title: '',
+  //    info: '',
+  //    info2: '',
+  //    url: '',
+  //    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  //  },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: 'Email: pemba.t.lama@gmail.com',
+  cta:
+    'I am available for freelance and contract work, feel free to reach out to me for any inquiries.',
+  btn: 'pemba.t.lama@gmail.com',
   email: 'pemba.t.lama@gmail.com',
 };
 
@@ -92,16 +94,21 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/pembalama',
     },
+    // {
+    //   id: uuidv1(),
+    //   name: 'twitter',
+    //   url: 'https://twitter.com/PembaTLama',
+    // },
+    {
+      id: uuidv1(),
+      name: 'codepen',
+      url: 'https://codepen.io/pembalama',
+    },
     {
       id: uuidv1(),
       name: 'twitter',
       url: 'https://twitter.com/PembaTLama',
     },
-    // {
-    //   id: uuidv1(),
-    //   name: 'envelope',
-    //   url: 'pemba.t.lama@gmail.com',
-    // },
   ],
 };
 
