@@ -25,7 +25,7 @@ export const aboutData = {
   //    'When I am not coding, I enjoy listening to podcasts, traveling, and exploring great foods.',
   paragraphThree: 'SKILLS:',
   paragraphFour: 'HTML | CSS | Javascript | React | Redux | NodeJS | Postgres | SQL | Git + Github',
-  resume: 'https://drive.google.com/file/d/1RMEPm_vv4g9TCoo2MyR0-tEpTd1p7qVd/view', // if no resume, the button will not show up 'https://www.resumemaker.online/es.php'
+  resume: 'https://drive.google.com/file/d/1q5xtK4kakC1MyF6L2On8gcTzmK0_rJkE/view?usp=sharing', // if no resume, the button will not show up 'https://www.resumemaker.online/es.php'
 };
 
 // PROJECTS DATA
