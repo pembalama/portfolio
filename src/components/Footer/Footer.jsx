@@ -33,15 +33,16 @@ const Footer = () => {
               );
             })}
         </div>
-        <hr />
+        {/* <hr /> */}
         {/* <p className="footer__text">Email: pemba.t.lama@gmail.com</p>
         <p className="footer__text">Github: https://github.com/pembalama</p> */}
+        <br />
         <p className="footer__text">
           {/* © {new Date().getFullYear()} - Template developed by{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
             Jacobo Martínez
           </a> */}
-          @2020 Pemba Lama.
+          Pemba Lama @2020.
         </p>
 
         {isEnabled && <GithubButtons />}

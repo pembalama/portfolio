@@ -27,6 +27,7 @@ const Header = () => {
           <h1 className="hero-title">
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Pemba Lama'}</span>
+            <span>.</span>
             <br />
             {subtitle || "I'm a Web Developer."}
           </h1>
