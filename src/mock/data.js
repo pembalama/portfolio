@@ -20,9 +20,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Full Stack Web Developer with a strong foundation in web technologies and a 7+ years professional background in Accounting. I love learning new things, solving problems, and working with others to build exciting products. When I am not coding, I enjoy listening to podcasts, traveling, and exploring great foods.',
-  //  paragraphTwo:
-  //    'When I am not coding, I enjoy listening to podcasts, traveling, and exploring great foods.',
+    'Full Stack Web Developer with a strong foundation in web technologies and a 7+ years professional background in Accounting. I love learning new things, solving problems, and working with others to build exciting products. When I am not coding, I enjoy listening to podcasts, traveling, and, exploring great foods.',
   paragraphThree: 'SKILLS:',
   paragraphFour: 'HTML | CSS | JavaScript | React | Redux | NodeJS | Postgres | SQL | Git | Github',
   resume: 'https://drive.google.com/file/d/1OcgAYum7IRXbf8lJPuOMkMjP4DlloH8A/view?usp=sharing', // if no resume, the button will not show up 'https://www.resumemaker.online/es.php'
@@ -52,21 +50,12 @@ export const projectsData = [
     url: 'https://project-black-bird.herokuapp.com/#/',
     repo: 'https://github.com/Project-Black-Bird/black-bird-reviews', // if no repo, the button will not show up
   },
-  //  {
-  //    id: uuidv1(),
-  //    img: 'project.jpg',
-  //    title: '',
-  //    info: '',
-  //    info2: '',
-  //    url: '',
-  //    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  //  },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: "Let's work together",
-  // info: 'I am available for freelance and contract work, feel free to contact me.',
+  info: 'I am available for freelance and contract work, feel free to contact me.',
   btn: 'pemba.t.lama@gmail.com',
   email: 'pemba.t.lama@gmail.com',
 };
@@ -74,16 +63,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    // {
-    //   id: uuidv1(),
-    //   name: 'twitter',
-    //   url: '',
-    // },
-    // {
-    //   id: uuidv1(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
     {
       id: uuidv1(),
       name: 'linkedin',
@@ -94,11 +73,6 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/pembalama',
     },
-    // {
-    //   id: uuidv1(),
-    //   name: 'twitter',
-    //   url: 'https://twitter.com/PembaTLama',
-    // },
     {
       id: uuidv1(),
       name: 'codepen',
