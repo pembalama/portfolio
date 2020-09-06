@@ -28,22 +28,38 @@
 
   .hero-title {
     width: 100%;
-    font-size: 5.2rem;
+    font-size: 8rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
 
-    @include respond(tab-land) {
+    p {
       font-size: 4rem;
     }
+
+    @include respond(tab-land) {
+      font-size: 6rem;
+
+      p {
+        font-size: 3rem;
+      }
+    }
     @include respond(tab-port) {
-      font-size: 2.8rem;
+      font-size: 5rem;
       text-align: center;
+
+      p {
+        font-size: 2rem;
+      }
     }
     @include respond(phone) {
-      font-size: 2.5rem;
+      font-size: 3rem;
       line-height: 1.5;
       text-align: center;
+
+      p {
+        font-size: 1.2rem;
+      }
     }
     @include respond(phone-xs) {
       font-size: 2rem;
@@ -59,7 +75,7 @@
 
     & a {
       font-size: 2.4rem;
-      margin: 8px;
+      margin: 10px;
 
       @include respond(phone) {
         font-size: 1.5rem;
