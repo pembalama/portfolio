@@ -49,7 +49,7 @@ const About = () => {
 
                 <p className="about-wrapper__info-text">
                   {paragraphFour ||
-                    'SKILLS: HTML5, CSS3, Javascript, React, Redux, NodeJS, Postgres, SQL, Git + Github '}
+                    'SKILLS: HTML5, CSS3, Javascript, React, Redux, NodeJS, Python, SQL, Git, Github '}
                 </p>
                 <br />
                 {resume && (

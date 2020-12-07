@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: "Hi, I'm",
   name: 'Pemba Lama',
-  subtitle: 'Software Developer and Accounting Professional.',
+  subtitle: 'Full Stack Web Developer.',
   cta: 'About',
   // cta projects: 'Projects',
 };
@@ -20,9 +20,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Full Stack Web Developer with a strong foundation in web technologies and a 7+ years professional background in Accounting. I love learning new things, solving problems, and working with others to build exciting products. When I am not coding, I enjoy listening to podcasts, traveling, and, exploring great foods.',
+    'Full Stack Web Developer  with a growth mindset and passion for learning new things. When I am not coding, I enjoy listening to podcasts, traveling, exploring great foods, and staying up to date on all things tech.',
   paragraphThree: 'SKILLS:',
-  paragraphFour: 'HTML | CSS | JavaScript | React | Redux | NodeJS | Postgres | SQL | Git | Github',
+  paragraphFour: 'HTML | CSS | JavaScript | React | Redux | NodeJS | Python | SQL | Git | Github',
   resume: 'https://drive.google.com/file/d/1M7SouxtHUHh92KjiVHFf5IgmG1K7IfjS/view?usp=sharing', // if no resume, the button will not show up 'https://www.resumemaker.online/es.php'
 };
 // PROJECTS DATA
