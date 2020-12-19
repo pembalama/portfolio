@@ -49,16 +49,24 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
+                      {/* <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        Live Demo
+                        Source Code
+                      </a> */}
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--hero"
+                        href={repo}
+                      >
+                        Source Code
                       </a>
 
-                      {repo && (
+                      {/* {repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -67,7 +75,7 @@ const Projects = () => {
                         >
                           Source Code
                         </a>
-                      )}
+                      )} */}
                     </div>
                   </Fade>
                 </Col>

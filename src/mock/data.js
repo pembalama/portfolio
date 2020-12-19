@@ -72,11 +72,11 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/pembalama',
     },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: 'https://codepen.io/pembalama',
-    },
+    // {
+    //   id: uuidv1(),
+    //   name: 'codepen',
+    //   url: 'https://codepen.io/pembalama',
+    // },
     {
       id: uuidv1(),
       name: 'twitter',
